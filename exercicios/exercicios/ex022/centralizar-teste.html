@@ -5,16 +5,36 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Teste de centralizaçao</title>
     <style>
-        
+        #container {
+            position: relative;
+            background-image: url(images/target001.png);
+            background-color: purple;
+            height: 98vh;
+            background-size: 100% 100%;
+        }
+
+        #conteudo {
+            position: absolute;
+            background-image: url(images/target001.png);
+            background-color: yellow;
+            height: 300px;
+            width: 400px;
+            background-size: cover;
+
+            left: 50%;
+            top: 50%;
+
+            transform: translate(-50%, -50%);
+            
+
+        }
     </style>
 </head>
 <body>
-    <main>
-        <section>
-            <article>
+        <section id="container">
+            <article id="conteudo">
                 
             </article>
         </section>
-    </main>
 </body>
 </html>
