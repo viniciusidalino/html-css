@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Sriracha');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Sriracha&display=swap');
 
 * {
     padding: 0px;
@@ -13,19 +13,11 @@
 }
 
 #img1 {
-    background-color: black;
     background-image: url(../imagens/background001.jpg);
-    background-position: center center;
-    background-size: cover;
-    background-attachment: fixed;
 }
 
 #img2 {
-    background-color: black;
     background-image: url(../imagens/background002.jpg);
-    background-position: center center;
-    background-size: cover;
-    background-attachment: fixed;
 }
 
 header {
@@ -67,11 +59,16 @@ article > p {
     padding: 70px 40px;
 }
 
+.fundo {
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
 .fundo p {
     display: inline-block;
     color: white;
     background-color: rgba(0, 0, 0, 0.699);
-    min-width: 200px;
     padding: 10px;
     margin: 50px;   
 }
@@ -81,7 +78,6 @@ footer {
     color: white;
     text-align: center;
     padding: 10px;
-    font-size: 1vw;
     font-size: medium;
 }
 
