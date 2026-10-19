@@ -1,0 +1,34 @@
+@charset "UTF-8";
+
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+header {
+    background-image: url(../images/nomade-logo-horizontal-claro.png);
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-color: black;
+    height: 39vh;
+    background-position: center center;
+}
+
+nav {
+    background-color: black;
+    padding: 20px;
+}
+
+nav > a {
+    text-decoration: none;
+    color: white;
+    margin: 20px;
+    font-size: x-large;
+}
+
+nav a:hover {
+    background-color: orange;
+    padding: 10px;
+    text-decoration: underline;
+}
