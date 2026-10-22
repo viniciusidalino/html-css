@@ -1,0 +1,74 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+:root {
+    --cor01: #CEA23F;
+    --cor02: #9C854F;
+    --cor03: #695F4A;
+    --cor04: #363430;
+    --cor05: #332E23;
+
+    --fonte-titulos: "Indie Flower", cursive;
+    --fonte-paragrafos: "Google Sans", sans-serif;
+}
+
+body {
+    background-color: var(--cor02);
+}
+
+main {
+    background-color: white;
+    margin: auto;
+    max-width: 1400px;
+    min-width: 300px;
+    line-height: 2em;
+    box-shadow: 1px 1px 10px;
+}
+
+img {
+    width: 100%;
+    margin: auto;
+}
+
+header {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 30px;
+    font-family: var(--fonte-titulos);
+}
+
+header > h1 {
+    font-size: 5rem;
+}
+
+header > p {
+    font-size: 1.2rem;
+}
+
+.abertura, .passeios {
+    font-family: var(--fonte-paragrafos);
+    text-align: justify;
+    line-height: 2.3em;
+}
+
+.abertura > h1 {
+    font-family: var(--fonte-titulos);
+    text-align: center;
+    background-image: linear-gradient(to right, var(--cor05), var(--cor04), var(--cor02), transparent);
+    padding: 10px;
+    color: white;
+    text-shadow: 2px 2px 3px black;
+}
+
+.passeio > h1, h2, h3, p {
+    padding: 0px 50px;
+}
