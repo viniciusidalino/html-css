@@ -22,6 +22,10 @@
 
 body {
     background-color: var(--cor02);
+    background-image: url(../images/fundo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 main {
@@ -34,8 +38,10 @@ main {
 }
 
 img {
-    width: 100%;
+    width: 93%;
     margin: auto;
+    display: block;
+    padding-top: 10px;
 }
 
 header {
@@ -69,6 +75,76 @@ header > p {
     text-shadow: 2px 2px 3px black;
 }
 
-.passeio > h1, h2, h3, p {
+.abertura > p {
+    font-family: var(--fonte-paragrafos);
+    text-align: center;
+    font-weight: bold;
+    text-shadow: 1px 1px 20px;
+}
+
+.passeios > h1, h3, p {
     padding: 0px 50px;
+}
+
+.passeios > h1, h2, h3 {
+    font-size: rem;
+}
+
+.passeios > h2 {
+    background-image: linear-gradient(to right, var(--cor05), var(--cor04), var(--cor02), transparent);
+    color: white;
+    font-family: var(--fonte-titulos);
+    text-align: center;
+}
+
+.passeios > h3 {
+    text-align: center;
+    font-family: var(--fonte-titulos);
+    font-size: 1.5rem;
+    padding: 15px;
+}
+
+
+ul {
+    padding-bottom: 30px;
+    background-color: var(--cor05);
+    color: white;
+    margin: 50px;
+    box-shadow: 1px 1px 20px black;
+    border-radius: 10px;
+}
+
+ul > h2 {
+    font-family: var(--fonte-titulos);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: var(--cor02);
+    text-align: center;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+li {
+    list-style-position: inside;
+    padding: 20px;
+    font-family: var(--fonte-paragrafos);
+    font-weight: bold;
+}
+
+footer {
+    padding: 15px;
+    text-align: center;
+    background-color: black;
+    color: white;
+    font-family: var(--fonte-paragrafos);
+    font-size: 1.2rem;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+}
+
+footer a:hover {
+    text-decoration: underline;
 }
