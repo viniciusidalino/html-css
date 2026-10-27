@@ -82,12 +82,11 @@ header > p {
     text-shadow: 1px 1px 20px;
 }
 
-.passeios > h1, h3, p {
-    padding: 0px 50px;
-}
-
-.passeios > h1, h2, h3 {
-    font-size: rem;
+.passeios > h1,
+.passeios > h2,
+.passeios > h3,
+.passeios > p {
+    padding: 20px;
 }
 
 .passeios > h2 {
