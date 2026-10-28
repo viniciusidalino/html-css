@@ -33,7 +33,6 @@ main {
     margin: auto;
     max-width: 1400px;
     min-width: 300px;
-    line-height: 2em;
     box-shadow: 1px 1px 10px;
 }
 
@@ -41,7 +40,7 @@ img {
     width: 93%;
     margin: auto;
     display: block;
-    padding-top: 10px;
+    padding: 15px;
 }
 
 header {
@@ -53,26 +52,26 @@ header {
 }
 
 header > h1 {
-    font-size: 5rem;
+    font-size: 1.7rem;
 }
 
 header > p {
-    font-size: 1.2rem;
+    font-size: 1rem;
 }
 
 .abertura, .passeios {
     font-family: var(--fonte-paragrafos);
     text-align: justify;
-    line-height: 2.3em;
+    line-height: 1.3rem;
 }
 
 .abertura > h1 {
     font-family: var(--fonte-titulos);
     text-align: center;
     background-image: linear-gradient(to right, var(--cor05), var(--cor04), var(--cor02), transparent);
-    padding: 10px;
     color: white;
     text-shadow: 2px 2px 3px black;
+    padding: 15px;
 }
 
 .abertura > p {
@@ -82,18 +81,12 @@ header > p {
     text-shadow: 1px 1px 20px;
 }
 
-.passeios > h1,
-.passeios > h2,
-.passeios > h3,
-.passeios > p {
-    padding: 20px;
-}
-
 .passeios > h2 {
     background-image: linear-gradient(to right, var(--cor05), var(--cor04), var(--cor02), transparent);
     color: white;
     font-family: var(--fonte-titulos);
     text-align: center;
+    padding: 15px;
 }
 
 .passeios > h3 {
@@ -103,12 +96,18 @@ header > p {
     padding: 15px;
 }
 
-
-ul {
-    padding-bottom: 30px;
+.lista-maior {
     background-color: var(--cor05);
     color: white;
-    margin: 50px;
+    margin: 40px;
+    box-shadow: 1px 1px 20px black;
+    border-radius: 10px;
+}
+
+.lista-menor {
+    background-color: var(--cor05);
+    color: white;
+    margin: 40px 50px;
     box-shadow: 1px 1px 20px black;
     border-radius: 10px;
 }
