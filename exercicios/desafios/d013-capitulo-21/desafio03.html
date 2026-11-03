@@ -4,10 +4,124 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Desafio 3</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            padding: 20px;
+        }
+
+        table {
+            border-collapse: collapse; 
+        }
+
+        th {
+            border: 1px solid black;  
+            background-color: gray;
+            color: white;
+            padding: 10px;
+        }
+
+        td {
+            border: 1px solid black; 
+            padding: 10px;
+        }
+
+        .nomenclatura {
+            background-color: white;
+            color: black;
+            padding: 10px;
+        }
+
+        .media {
+            text-align: left;
+        }
+
+        .num {
+            text-align: center;
+        }
+
+        .totmed {
+            background-color: grey;
+            color: white;
+            font-weight: bold;
+        }
+        
+    </style>
 </head>
 <body>
     <table>
-        
+        <thead>
+            <tr>
+                <th rowspan="2" colspan="2" scope="col">Área</th>
+                <th colspan="2" rowspan="2" scope="col">Disciplinas</th>
+                <th colspan="2" scope="colgroup">Notas</th>
+                <th colspan="2" rowspan="2" scope="col">Média</th>
+            </tr>
+
+            <tr>
+                <th scope="row">Nota 1</th>
+                <th scope="row">Nota 2</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <th class="nomenclatura" rowspan="4" colspan="2" scope="colgroup">Exatas</th>
+                <td colspan="2">Matemática</td>
+                <td class="num">0.0</td>
+                <td class="num">0.0</td>
+                <td class="num">0.0</td>
+            </tr>
+
+            <tr>
+                <td colspan="2">Física</td>
+                <td class="num">0.0</td>
+                <td class="num">0.0</td>
+                <td class="num">0.0</td>
+            </tr>
+
+            <tr>
+                <td colspan="2">Química</td>
+                <td class="num">0.0</td>
+                <td class="num">0.0</td>
+                <td class="num">0.0</td>
+            </tr>
+
+            <tr>
+                <td colspan="2">Biologia</td>
+                <td class="num">0.0</td>
+                <td class="num">0.0</td>
+                <td class="num">0.0</td>
+            </tr>
+
+            <tr>
+                <th class="media" colspan="6" scope="row">Média de Exatas</th>
+                <td class="num totmed">0.0</td>
+            </tr>
+
+            <tr>
+                <th class="nomenclatura" rowspan="2" colspan="2" scope="colgroup">Humanas</th>
+                <td colspan="2">História</td>
+                <td class="num">0.0</td>
+                <td class="num">0.0</td>
+                <td class="num">0.0</td>
+            </tr>
+
+            <tr>
+                <td colspan="2">Geografia</td>
+                <td class="num">0.0</td>
+                <td class="num">0.0</td>
+                <td class="num">0.0</td>
+            </tr>
+
+            <tr>
+                <th class="media"  colspan="6" scope="row">Média de Humanas</th>
+                <td class="num totmed">0.0</td>
+            </tr>
+        </tbody>
+
     </table>
+
+
 </body>
 </html>
