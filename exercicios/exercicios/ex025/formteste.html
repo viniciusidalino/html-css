@@ -7,5 +7,31 @@
 </head>
 <body>
     <h1>Fixação de aprendizado</h1>
+    <form action="cadastro.php" method="post" autocomplete="on">
+        <p>
+            <label for="idnome">Nome Completo:</label>
+            <input type="text" name="nome" id="idnome" required size="30" placeholder="Digite seu nome completo">
+        </p>
+
+        <p>
+            <label for="idemail">E-mail:</label>
+            <input type="email" name="email" id="idemail" required size="25" placeholder="Digite seu melhor e-mail">
+        </p>
+
+        <p>
+            <label for="iduser">Usuário:</label>
+            <input type="text" name="user" id="iduser" required minlength="5" maxlength="15" size="20" placeholder="Digite seu usuário">
+        </p>
+
+        <p>
+            <label for="idsenha">Senha:</label>
+            <input type="password" name="senha" id="idsenha" required minlength="5" maxlength="15" size="15" placeholder="Defina uma senha">
+        </p>
+
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Apagar tudo">
+        </p>
+    </form>
 </body>
 </html>
