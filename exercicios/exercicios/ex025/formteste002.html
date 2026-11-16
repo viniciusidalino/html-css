@@ -4,8 +4,39 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Teste com Fieldset</title>
+    <style>
+        legend {
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bolder;
+        }
+
+        fieldset { 
+            border: 2px solid black;
+            background-color: aquamarine;
+        }
+
+        form p{
+            color: black;
+        }
+    </style>
 </head>
 <body>
     <h1>Fixação de aprendizado para formulários com fieldset</h1>
+    <fieldset>
+        <legend>Dados Pessoais</legend>
+        <form action="cadastro.php">
+            <p>
+                <label for="idnome">Nome:</label>
+                <input type="text" name="nome" id="idnome">
+            </p>
+
+            <p>
+                <label for="idemail">E-mail</label>
+                <input type="email" name="email" id="idemail">
+            </p>
+
+        </form>
+    </fieldset>
 </body>
 </html>
